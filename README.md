@@ -24,7 +24,7 @@ Para executar este projeto, basta seguir os passos abaixo:
 
 ### 1. Clonar o Repositório
 ```bash
-git clone https://github.com/antoniolmcandido/google-api-translate-datasets.git
+git clone https://github.com/antoniolmcandido/api-google-translate-datasets.git
 ```
 ### 2. Instalar Dependências
 Instale todas as dependências necessárias utilizando o pip:
