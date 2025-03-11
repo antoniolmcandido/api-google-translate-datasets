@@ -41,9 +41,9 @@ Here's an example of what a translated post would look like:
 
 | **Original Post** | **Translated Post** |
 |----------------------------------------------|-----------------------------------------------|
-| "I love exploring new places!" | "Eu adoro explora novo lugar!" |
+| "I love exploring new places!" | "Eu adoro explorar novos lugares!" |
 | "The weather today is just perfect." | "O clima hoje está Simplesmente Perfeito." |
-| "Can't wait for the weekend to arrive!" | "Can't wait for the weekend to arrive!" |
+| "Can't wait for the weekend to arrive!" | "Mal posso esperar para o fim de semana chegar!" |
 
 ## 🔧 How to Customize
 You can customize the project to your needs! Some customization options:
