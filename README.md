@@ -1,77 +1,75 @@
-# 📜 Projeto de Tradução de Posts com Google Translate API 🇬🇧➡️🇧🇷
-> Transformando o mundo em um lugar mais conectado, uma tradução de cada vez! 🌍💬
+# 📜 Post Translation Project with Google Translate API 🇬🇧➡️🇧🇷
+> Transforming the world into a more connected place, one translation at a time! 🌍💬
 
-Este projeto utiliza a API do Google Translate para traduzir 29.604 posts de usuários do inglês para o português de forma automatizada. Imagine conseguir compreender o conteúdo compartilhado por pessoas ao redor do mundo, superando a barreira do idioma! 💡
+This project uses the Google Translate API to translate 29,604 user posts from English to Portuguese in an automated way. Imagine being able to understand the content shared by people around the world, overcoming the language barrier! 💡
 
-## 🎯 Objetivo
-O principal objetivo deste projeto é traduzir posts de usuários, originalmente escritos em inglês, para o português, utilizando a API do Google Translate. Isso possibilita que uma vasta quantidade de conteúdos seja acessada e compreendida de maneira rápida e eficiente, contribuindo para a inclusão digital e intercâmbio de ideias entre culturas. 🌐
+## 🎯 Objective
+The main objective of this project is to translate user posts, originally written in English, into Portuguese, using the Google Translate API. This allows a vast amount of content to be accessed and understood quickly and efficiently, contributing to digital inclusion and the exchange of ideas between cultures. 🌐
 
-## 🚀 Tecnologias Utilizadas
-- Python 🐍: Linguagem de programação principal para o desenvolvimento do script.
-- Google Translate API 🌍: Serviço de tradução automática da Google, que foi utilizado para realizar as traduções dos posts.
-- Requests 📡: Biblioteca Python para fazer requisições HTTP, essencial para a interação com a API.
-- JSON 🧩: Formato utilizado para armazenar e manipular os dados dos posts traduzidos.
-- Pandas 📊: Para organização e processamento dos dados em formato tabular, facilitando a análise e exportação.
+## 🚀 Technologies Used
+- Python 🐍: Main programming language for script development. - Google Translate API 🌍: Google's automatic translation service, which was used to translate the posts.
+- Requests 📡: Python library for making HTTP requests, essential for interacting with the API.
+- JSON 🧩: Format used to store and manipulate data from translated posts.
+- Pandas 📊: For organizing and processing data in tabular format, facilitating analysis and export.
 
-## 💡 Como Funciona
-1. Coleta dos Posts: O projeto começa com a coleta de posts de usuários que estão no idioma inglês.
-2. Envio para a API: Para cada post, o conteúdo é enviado para a Google Translate API, onde a tradução é realizada de maneira automática.
-3. Armazenamento dos Dados: Após a tradução, os dados são armazenados e organizados com o auxílio de Pandas.
-4. Exportação: O resultado pode ser exportado em diferentes formatos, como XLSX, CSV ou JSON, para posterior análise ou uso em outras aplicações.
+## 💡 How it Works
+1. Collecting Posts: The project starts by collecting posts from users that are in English.
+2. Sending to the API: For each post, the content is sent to the Google Translate API, where the translation is performed automatically.
+3. Storing Data: After translation, the data is stored and organized with the help of Pandas.
+4. Exporting: The result can be exported in different formats, such as XLSX, CSV or JSON, for later analysis or use in other applications.
 
-## ⚙️ Como Rodar o Projeto
-Para executar este projeto, basta seguir os passos abaixo:
+## ⚙️ How to Run the Project
+To run this project, just follow the steps below:
 
-### 1. Clonar o Repositório
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/antoniolmcandido/api-google-translate-datasets.git
 ```
-### 2. Instalar Dependências
-Instale todas as dependências necessárias utilizando o pip:
+### 2. Install Dependencies
+Install all necessary dependencies using pip:
 ```bash
 pip install pandas numpy tqdm googletrans
 ```
-## 3. Rodar o Script de Tradução
-Com tudo configurado, basta rodar o script para realizar a tradução dos posts, para isso utilize o jupyter notebook.
+## 3. Run the Translation Script
+With everything configured, just run the script to translate the posts. To do this, use Jupyter Notebook.
 
-## 4. Obter os Resultados
-O script irá gerar um arquivo posts_traduzidos.xlsx com os posts traduzidos. Você pode abrir esse arquivo no Excel ou outro editor de sua preferência para visualizar os resultados.
+## 4. Get the Results
+The script will generate a file posts_traduzidos.xlsx with the translated posts. You can open this file in Excel or another editor of your choice to view the results.
 
-## 🎨 Exemplo de Resultado
-Aqui está um exemplo de como um post traduzido se pareceria:
+## 🎨 Example Output
+Here's an example of what a translated post would look like:
 
-| **Post Original**                           | **Post Traduzido**                             |
-|---------------------------------------------|-----------------------------------------------|
-| "I love exploring new places!"              | "Eu adoro explorar novos lugares!"            |
-| "The weather today is just perfect."        | "O clima hoje está simplesmente perfeito."    |
-| "Can't wait for the weekend to arrive!"     | "Mal posso esperar para o fim de semana chegar!" |
+| **Original Post** | **Translated Post** |
+|----------------------------------------------|-----------------------------------------------|
+| "I love exploring new places!" | "Eu adoro explora novo lugar!" |
+| "The weather today is just perfect." | "O clima hoje está Simplesmente Perfeito." |
+| "Can't wait for the weekend to arrive!" | "Can't wait for the weekend to arrive!" |
 
+## 🔧 How to Customize
+You can customize the project to your needs! Some customization options:
 
-## 🔧 Como Personalizar
-Você pode personalizar o projeto conforme suas necessidades! Algumas opções de personalização:
+- Change the translation language (e.g. from English to French, Spanish, etc.).
+- Modify the way data is stored, exporting to other formats or integrating with databases.
+- Configure the number of posts to be translated to suit your specific project.
 
-- Alterar o idioma de tradução (ex: de inglês para francês, espanhol, etc.).
-- Modificar a forma de armazenamento dos dados, exportando para outros formatos ou integrando com bancos de dados.
-- Configurar o número de posts a ser traduzido para adaptar ao seu projeto específico.
+## 📋 License
+This project is licensed under the MIT license. See the LICENSE file for more details.
 
-## 📋 Licença
-Este projeto é licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+## 💬 Contributions
+Contributions are welcome! If you have any improvements or fixes, feel free to open a pull request. Let's work together to improve accessibility and information exchange in the world! 🌍
 
-## 💬 Contribuições
-Contribuições são bem-vindas! Se você tiver alguma melhoria ou correção, sinta-se à vontade para abrir um pull request. Vamos juntos melhorar a acessibilidade e a troca de informações no mundo! 🌍
+## 💻 Quick Installation - Visual Step by Step
+1. Clone the Repository.
+2. Install the Dependencies.
+3. Run the Script.
 
-## 💻 Instalação Rápida - Passo a Passo Visual
-1. Clone o Repositório.
-2. Instale as Dependências.
-3. Execute o Script.
+## 🙋‍♂️ Need Help?
+If you have any questions or need help setting up the project, don't hesitate to open an issue in the repository. I'll get back to you as soon as possible! 😄
 
-## 🙋‍♂️ Precisa de Ajuda?
-Se você tiver alguma dúvida ou precisar de ajuda para configurar o projeto, não hesite em abrir uma issue no repositório. Eu vou responder assim que possível! 😄
+## 🎉 Acknowledgements
+This project was inspired by the potential of modern APIs and the ease of accessing data from multiple sources. Thanks to the Google Cloud team for the amazing translation API, and to Python for its flexibility and power! 🙌
 
-## 🎉 Agradecimentos
-Este projeto foi inspirado na potencialidade das APIs modernas e na facilidade de acesso a dados de diversas fontes. Obrigado ao time da Google Cloud pela incrível API de tradução, e ao Python pela sua flexibilidade e poder! 🙌
+Let's transform communication in the world together! 🌍✨
 
-Vamos juntos transformar a comunicação no mundo! 🌍✨
-
-## Documentação Biblioteca Googletrans Python
+## Googletrans Python Library Documentation
 [https://pypi.org/project/googletrans](https://pypi.org/project/googletrans)
